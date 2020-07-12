@@ -1,7 +1,7 @@
 
   function dicee(dice, dice2) {
 
-  var dice = ["images\\dice1.png", "images\\dice2.png", "images\\dice3.png", "images\\dice4.png", "images\\dice5.png", "images\\dice6.png"];
+  var dice = ["dice1.png", "dice2.png", "images\\dice3.png", "images\\dice4.png", "images\\dice5.png", "images\\dice6.png"];
   var randomDice = dice.length;
   var dices = Math.floor(Math.random() * randomDice);
   var diceRoll = dice[dices];
