@@ -1,14 +1,14 @@
 
   function dicee(dice, dice2) {
 
-  var dice = ["dice1.png", "dice2.png", "images\\dice3.png", "images\\dice4.png", "images\\dice5.png", "images\\dice6.png"];
+  var dice = ["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png"];
   var randomDice = dice.length;
   var dices = Math.floor(Math.random() * randomDice);
   var diceRoll = dice[dices];
 
   var p1 = document.querySelector(".img1").srcset = diceRoll;
 
-  var dice2 = ["images\\dice1.png", "images\\dice2.png", "images\\dice3.png", "images\\dice4.png", "images\\dice5.png", "images\\dice6.png"];
+  var dice2 = ["dice1.png", "dice2.png", "dice3.png", "dice4.png", "dice5.png", "dice6.png"];
   var randomDice2 = dice2.length;
   var dices2 = Math.floor(Math.random() * randomDice2);
   var diceRoll2 = dice2[dices2];
